@@ -3,7 +3,8 @@ import func
 import time
 
 now = time.strftime('%B %d, %Y %H:%M:%S')
-print('It is', now)
+print(f"It is:{now}")
+
 while True:
     user_action = input("Type add,show,edit,complete or exit:")
     user_action = user_action.strip()  # or another title()-every word cap()
