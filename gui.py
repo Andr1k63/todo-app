@@ -8,7 +8,9 @@ clock_label = sg.Text("",key='clock')
 
 label = sg.Text("Enter a to-do.")
 input_box = sg.InputText(tooltip="Enter a todo:", key='todo')
-add_button = sg.Button("Add", size=8)
+add_button = sg.Button(size=2,image_source='add.png',mouseover_colors='LightBlue2',
+                       tooltip="Enter and press button!",key="Add")
+
 list_box = sg.Listbox(values=func.get_todos(), key='todos',
                       enable_events=True, size=(40, 6))
 

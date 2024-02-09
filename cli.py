@@ -3,6 +3,7 @@ import func
 import time
 
 now = time.strftime('%B %d, %Y %H:%M:%S')
+
 print(f"It is:{now}")
 
 while True:
