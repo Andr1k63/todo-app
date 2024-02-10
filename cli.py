@@ -60,7 +60,7 @@ while True:
             print(message)
 
         except IndexError:
-            print("This number isn't at list")
+            print("This number isn't at list.")
             continue
     elif user_action.startswith('exit'):
         break
